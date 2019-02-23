@@ -1,0 +1,34 @@
+.blog-section.section-gap .blg-img-cnt img {
+    max-width: 100%;
+}
+
+
+.blog-inner-cnt {
+    background: #fdfcfc;
+    box-shadow: 2px 2px 2px #ccc;
+    box-shadow: 2px 2px 13px 0 rgba(1,1,0,.1);
+    border-radius: 6px;
+}
+
+.blg-text-cnt {
+    padding: 15px 20px;
+}
+.blog-section h1{margin-bottom: 30px;}
+.blg-text-cnt h5{min-height: 70px;}
+.blog-detail{background-color: #e3e3e3;}
+.sidebar-blk {background: #f1f1f1; padding: 10px;}
+.sidebar-blk ul {list-style:none;padding:0;}
+.sidebar-blk ul li{padding-bottom: 30px;}
+.sidebar-blk .img-rounded{height:70px;width:70px;border-radius:50%;float: left; margin: 0 8px 0 0;}
+.sidebar-blk span.meta{display: block}
+.blog-detail .blog-detail-inner-cnt{background: #fff; padding: 30px !important; margin-bottom: 30px; box-shadow: 0 2px 7px 0 rgba(0,0,0,0.05); border-radius: 4px; padding-bottom: 50px !important; border: 0;}
+.blog-detail-inner-cnt .blg-img-cnt img { width: 100%; }
+.blog-tab-listing .blog-tab-cnt{display: none !important;}
+.blog-tab-listing .blog-tab-cnt.active{display: flex !important;color:#000;}
+.blog-tab-listing  .blg-img-cnt { width: 100%; height: 190px; overflow: hidden;}
+.blog-section.section-gap.blog-tab-listing  .blg-img-cnt a img{ width: 100%; height: auto;    transition: all 0.5s; -moz-transition: all 0.5s; -webkit-transition: all 0.5s; -ms-transition: all 0.5s; -o-transition: all 0.5s;}
+.blog-section.section-gap.blog-tab-listing .blg-img-cnt a{cursor:pointer;  height: 100%; width: 100%; display: block;}
+.blog-tabs{ margin: 30px 0px 50px 0px; font-size: 15px; padding: 20px; list-style: none; text-align: center; display: inline-block; position: relative; width: 100%; background-color: transparent; } 
+.blog-tabs button { text-decoration: none; color: #09045b; text-transform: uppercase; padding: 5px 20px; display: inline-block; position: relative; z-index: 1; transition-duration: 0.6s; background: transparent; border: 2px solid #09045b; margin: 0px 10px; border-radius:50px; font-weight: 500; font-size: 16px; outline: none; cursor: pointer; } 
+.blog-tabs button.active{ transition: all .3s ease 0s; color: #fff; border: 2px  solid #7a77ff; line-height: 28px; background-image: -webkit-linear-gradient(0deg,#7a77ff 0%,#46d83e 100%); box-shadow: 0 3px 3px 0 rgba(0,0,0,.1); } 
+.blog-tab-listing .blg-text-cnt a{font-size: 16px; color: #09045b; font-weight: 700;}

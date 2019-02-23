@@ -1,0 +1,11 @@
+.about-right {
+    padding-right: 8%;
+    padding-left: 5%;
+    text-align: left !important;
+}
+.about-right p{
+    margin-bottom: 30px;
+}
+.about-right h1 {
+    margin-bottom: 20px;
+}
